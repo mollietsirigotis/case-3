@@ -93,13 +93,19 @@ form {
 
 h2 {
     margin-top: 3rem;
-    color: white;
     font-size: 3rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 p {
     margin-top: 1rem;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 #submit {
