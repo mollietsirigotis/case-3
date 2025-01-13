@@ -39,9 +39,4 @@ submit.addEventListener("click", (event) => {
         alert("Fyll i båda fälten!");
     }
 });
-
-
-
-
-
-
+//ändring för att se om det går att pusha
