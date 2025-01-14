@@ -151,6 +151,17 @@ a {
     color: gold;
 }
 
+.remove {
+    margin-left: 10px;
+    cursor: pointer;
+    color: gray;
+}
+
+.favorite:hover,
+.remove:hover {
+    color: #ffffff;
+}
+
 .link-container {
     height: 20rem;
     margin-top: 2rem;
