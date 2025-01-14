@@ -25,15 +25,24 @@ submit.addEventListener("click", (event) => {
         link.target = "_blank";
         link.textContent = name;
 
+        // Skapar en stjärnikon
+        const favoriteIcon = document.createElement("span");
+        favoriteIcon.innerHTML = "&#9733;"; // stjärnikonen
+        favoriteIcon.classList.add("favorite");
+
         // Appendar link till listitem
         listItem.appendChild(link);
     
         // Appendar listitem till linklist
         linkList.appendChild(listItem);
 
+
+
         // Tar bort texten ur inputfälten
         nameInput.value = "";
         urlInput.value = "";
+
+
 
     } else {
         alert("Fyll i båda fälten!");
