@@ -43,11 +43,13 @@ submit.addEventListener("click", (event) => {
         // Appendar listitem till linklist
         linkList.appendChild(listItem);
 
-
-
         // Tar bort texten ur inputfälten
         nameInput.value = "";
         urlInput.value = "";
+
+        favoriteIcon.addEventListener("click", () => {
+            favoriteIcon.classList.toggle("favorited");
+        });
 
 
 
