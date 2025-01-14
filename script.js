@@ -35,8 +35,10 @@ submit.addEventListener("click", (event) => {
         removeIcon.innerHTML = "&#10006;"; // x ikonen
         removeIcon.classList.add("remove");
 
-        // Appendar link till listitem
+        // Appendar link och ikonerna till listitem
         listItem.appendChild(link);
+        listItem.appendChild(favoriteIcon);
+        listItem.appendChild(removeIcon);
     
         // Appendar listitem till linklist
         linkList.appendChild(listItem);
