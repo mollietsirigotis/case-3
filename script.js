@@ -51,7 +51,10 @@ submit.addEventListener("click", (event) => {
             favoriteIcon.classList.toggle("favorited");
         });
 
-
+        // Händelselyssnare för kryssikonen
+        removeIcon.addEventListener("click", () => {
+            listItem.remove();
+        });
 
     } else {
         alert("Fyll i båda fälten!");
