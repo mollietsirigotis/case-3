@@ -30,6 +30,11 @@ submit.addEventListener("click", (event) => {
         favoriteIcon.innerHTML = "&#9733;"; // stjärnikonen
         favoriteIcon.classList.add("favorite");
 
+        // Skapar en kryssikon för att radera
+        const removeIcon = document.createElement("span");
+        removeIcon.innerHTML = "&#10006;"; // x ikonen
+        removeIcon.classList.add("remove");
+
         // Appendar link till listitem
         listItem.appendChild(link);
     
